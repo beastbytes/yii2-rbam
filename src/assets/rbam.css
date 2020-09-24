@@ -1,0 +1,178 @@
+#rbam .action {
+    border-radius: 100%;
+    display: inline-block;
+    height: 1.5rem;
+    margin: 0.25rem;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 1.5rem;
+}
+#rbam .action::before {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    color: white;
+    content: '';
+    display: block;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+#rbam .action--add {
+    background-color: #008800;
+    color: #008800 !important;
+}
+#rbam .action--add::before {
+    background-image: url("icons/add-white-24dp.svg");
+}
+#rbam .action--assign {
+    background-color: #008800;
+    color: #008800 !important;
+}
+#rbam .action--assign::before {
+    background-image: url("icons/link-white-24dp.svg");
+}
+#rbam .action--manage {
+    background-color: #025969;
+    color: #025969 !important;
+}
+#rbam .action--manage::before {
+    background-image: url("icons/settings-white-24dp.svg");
+}
+#rbam .action--remove {
+    background-color: #aa0000;
+    color: #aa0000 !important;
+}
+#rbam .action--remove::before {
+    background-image: url("icons/remove-white-24dp.svg");
+}
+#rbam .action--revoke {
+    background-color: #aa0000;
+    color: #aa0000 !important;
+}
+#rbam .action--revoke::before {
+    background-image: url("icons/link_off-white-24dp.svg");
+}
+#rbam .action--update {
+    background-color: #121277;
+    color: #121277 !important;
+}
+#rbam .action--update::before {
+    background-image: url("icons/create-white-24dp.svg");
+}
+
+#rbam .btn {
+    border-radius: 100%;
+    cursor: pointer;
+    display: inline-block;
+    height: 3rem;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    width: 3rem;
+}
+#rbam .btn::before {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    color: white;
+    content: '';
+    display: block;
+    height: 3rem;
+    width: 3rem;
+}
+#rbam .btn--create {
+    background-color: #008800;
+    color: #008800;
+}
+#rbam .btn--create::before {
+    background-image: url("icons/add-white-24dp.svg");
+}
+#rbam .btn--update {
+    background-color: #121277;
+    color: #121277;
+}
+#rbam .btn--update::before {
+    background-image: url("icons/create-white-24dp.svg");
+}
+#rbam .btn--submit {
+    background-color: #008800;
+    color: #008800;
+}
+#rbam .btn--submit::before {
+    background-image: url("icons/send-white-24dp.svg");
+}
+
+#rbam .ui-collapsible__content {
+    transition: max-height 2.5s ease;
+}
+#rbam .ui-collapsible__button {
+    background-color: #121277;
+    background-image: url("icons/help_outline-white-24dp.svg");
+    background-position: center;
+    border: none;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    color: #121277;
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    height: 1.5rem;
+    position: relative;
+    width: 1.5rem;
+}
+#rbam .ui-collapsible__button::before {
+    display: none;
+}
+#rbam .ui-collapsible__control:checked ~ .ui-collapsible__button {
+    background-color: #aa0000;
+    background-image: url("icons/clear-white-24dp.svg");
+    color: #aa0000;
+}
+
+#rbam .ui-collapsible__content .action {
+    margin-bottom: -0.25rem;
+}
+
+#rbam .item {
+    display: flex;
+    justify-content: space-between;
+}
+#rbam .item table tr:nth-of-type(even) {
+    background: #f0f0f0;
+    color: #1a1a1a;
+}
+#rbam .item table td {
+    padding: 0.5rem 1rem;
+}
+
+#rbam .breadcrumb {
+    align-items: start;
+    display: flex;
+}
+#rbam .breadcrumb__item::after {
+    content: '::';
+    margin: 0 0.25rem;
+}
+#rbam .breadcrumb__item--active {
+    font-weight: bold;
+}
+#rbam .breadcrumb__item--active::after {
+    content: '';
+    margin: 0;
+}
+
+#rbam .flex {
+    display: flex;
+}
+#rbam .items-center {
+    align-items: center;
+}
+#rbam .justify-between {
+    justify-content: space-between;
+}
+#rbam .number {
+    text-align: right;
+}
