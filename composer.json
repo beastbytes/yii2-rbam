@@ -1,0 +1,24 @@
+{
+    "name": "Role Based Access Manager",
+    "description": "Yii2 Extension that provides a UI for the Role Based Access Control (RBAC) system",
+    "keywords": ["yii2", "role", "permission", "rule", "access control", "authorisation", "authorization", "UI"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/beastbytes/rbam/issues",
+        "source": "https://github.com/beastbytes/rbam"
+    },
+    "authors": [
+        {
+            "name": "Chris Yates",
+            "email": "chris.l.yates@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "beastbytes/yii2-ui-widgets": "*"
+    },
+    "autoload": {
+        "psr-4": { "BeastBytes\\Rbam\\": "" }
+    }
+}
