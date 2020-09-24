@@ -1,5 +1,5 @@
 {
-    "name": "Role Based Access Manager",
+    "name": "beastbytes/yii2-rbam",
     "description": "Yii2 Extension that provides a UI for the Role Based Access Control (RBAC) system",
     "keywords": ["yii2", "role", "permission", "rule", "access control", "authorisation", "authorization", "UI"],
     "type": "yii2-extension",
