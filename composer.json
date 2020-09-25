@@ -19,6 +19,6 @@
         "beastbytes/yii2-ui-widgets": "*"
     },
     "autoload": {
-        "psr-4": { "BeastBytes\\Rbam\\": "" }
+        "psr-4": { "BeastBytes\\Rbam\\": "src" }
     }
 }
